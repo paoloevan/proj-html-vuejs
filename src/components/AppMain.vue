@@ -4,7 +4,8 @@ import AppNav from '../components/AppNav.vue'
 export default {
     name: 'AppMain',
     components: {
-        AppNav
+        AppNav,
+        mainNav: true
     }
 }
 </script>

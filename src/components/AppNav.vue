@@ -16,7 +16,8 @@ export default {
         <ul class="text d-flex justify-content-center">
             <a :class="i === 0 ? 'active' : ''" v-for="(link, i) in state.navbarLinks">
                 {{ link.text }}
-                <span v-if="link.text === 'Home' | link.text === 'Shop' | link.text === 'Show by brand'">
+                <span
+                    v-if="link.text === 'Home' | link.text === 'Shop' | link.text === 'Show by brand' && this.mainNav">
                     <i class="fa-solid fa-angle-down"></i>
                 </span>
             </a>

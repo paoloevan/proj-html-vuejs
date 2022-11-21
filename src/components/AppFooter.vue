@@ -1,6 +1,12 @@
 <script>
+import AppNav from './AppNav.vue'
+
 export default {
-    name: 'AppFooter'
+    name: 'AppFooter',
+    components: {
+        AppNav
+    },
+    mainNav: false
 }
 </script>
 
@@ -45,7 +51,10 @@ export default {
 
 
             </div>
+
             <hr>
+
+            <AppNav />
         </div>
     </footer>
 </template>
@@ -65,6 +74,10 @@ footer {
 
     address {
         line-height: 2rem;
+    }
+
+    span {
+        display: none;
     }
 
     .call_to_action {
