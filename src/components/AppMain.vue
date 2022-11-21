@@ -1,17 +1,22 @@
 <script>
 import AppNav from '../components/AppNav.vue'
+import { state } from '../state.js'
 
 export default {
     name: 'AppMain',
     components: {
         AppNav,
-        mainNav: true
+    },
+    data() {
+        return {
+            state
+        }
     }
 }
 </script>
 
 <template>
     <main>
-        <AppNav />
+        <AppNav :navBar="state.mainNav" />
     </main>
 </template>

@@ -1,12 +1,9 @@
 <script>
-import { state } from '../state.js'
 
 export default {
     name: 'AppNav',
-    data() {
-        return {
-            state
-        }
+    props: {
+        navBar: Array
     }
 }
 </script>
@@ -14,10 +11,10 @@ export default {
 <template>
     <nav>
         <ul class="text d-flex justify-content-center">
-            <a :class="i === 0 ? 'active' : ''" v-for="(link, i) in state.navbarLinks">
+            <a :class="link.active ? 'active' : ''" v-for="(link, i) in navBar">
                 {{ link.text }}
                 <span
-                    v-if="link.text === 'Home' | link.text === 'Shop' | link.text === 'Show by brand' && this.mainNav">
+                    v-if="navBar.length === 6 && link.text === 'Home' | link.text === 'Shop' | link.text === 'Show by brand'">
                     <i class="fa-solid fa-angle-down"></i>
                 </span>
             </a>

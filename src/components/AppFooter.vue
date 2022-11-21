@@ -1,12 +1,17 @@
 <script>
 import AppNav from './AppNav.vue'
+import { state } from '../state.js'
 
 export default {
     name: 'AppFooter',
     components: {
         AppNav
     },
-    mainNav: false
+    data() {
+        return {
+            state
+        }
+    }
 }
 </script>
 
@@ -54,7 +59,7 @@ export default {
 
             <hr>
 
-            <AppNav />
+            <AppNav :navBar="state.footerNav" />
         </div>
     </footer>
 </template>

@@ -1,13 +1,42 @@
 import { reactive } from 'vue'
 
 export const state = reactive({
-    navbarLinks: [
+    mainNav: [
         {
             text: 'Home',
-            href: `#`
+            href: `#`,
+            active: true
         },
         {
             text: 'Shop',
+            href: `#`,
+            active: false
+        },
+        {
+            text: 'About',
+            href: `#`,
+            active: false
+        },
+        {
+            text: 'Blog',
+            href: `#`,
+            active: false
+        },
+        {
+            text: 'Contact',
+            href: `#`,
+            active: false
+        },
+        {
+            text: 'Show by brand',
+            href: `#`,
+            active: false
+        },
+
+    ],
+    footerNav: [
+        {
+            text: 'Home',
             href: `#`
         },
         {
@@ -23,7 +52,7 @@ export const state = reactive({
             href: `#`
         },
         {
-            text: 'Show by brand',
+            text: 'Shop',
             href: `#`
         },
 
