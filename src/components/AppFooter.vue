@@ -16,8 +16,8 @@ export default {
 </script>
 
 <template>
-    <footer class="py-5">
-        .<div class="container">
+    <footer>
+        <div class="container py-5">
             <div class="row row-cols-5 justify-content-between">
                 <div class="col">
 
@@ -60,6 +60,18 @@ export default {
             <hr>
 
             <AppNav :navBar="state.footerNav" />
+            <!-- / navbar -->
+
+            <div class="social text-white text-center">
+                <span> <i class="fa-brands fa-facebook-f"></i></span>
+                <span> <i class="fa-brands fa-twitter"></i></span>
+                <span> <i class="fa-brands fa-instagram"></i></span>
+                <span> <i class="fa-brands fa-youtube"></i></span>
+            </div>
+
+        </div>
+        <div class="boottom_footer d-flex justify-content-center align-items-center">
+            &#169; Copyright 2012 - 2022 | Avada Theme by Themefusion | All right reserved | Powered by Paoloevan
         </div>
     </footer>
 </template>
@@ -79,10 +91,6 @@ footer {
 
     address {
         line-height: 2rem;
-    }
-
-    span {
-        display: none;
     }
 
     .call_to_action {
@@ -108,12 +116,26 @@ footer {
         }
     }
 
+    .social {
+        span {
+            margin: 0 0.5rem;
+        }
+    }
+
     h4,
     a {
         color: $cube--light;
         text-decoration: none;
         display: block;
         margin-bottom: 1rem;
+    }
+
+
+    .boottom_footer {
+        font-size: 0.75rem;
+        padding: 1.5rem;
+        color: $cube--light;
+        background-color: black;
     }
 }
 </style>
