@@ -1,14 +1,26 @@
 @use '../node_modules/bootstrap/scss/bootstrap.scss';
 @use './assets/sass/partials/palette' as *;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Oriya:wght@400;500;600;700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img {
   max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Noto Serif Oriya', serif;
 }
 
 h1 {
@@ -23,6 +35,7 @@ h2 {
 h3 {
   font-size: 41px
 }
+
 
 .text {
   font-size: 19px
