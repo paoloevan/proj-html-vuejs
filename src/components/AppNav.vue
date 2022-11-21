@@ -1,18 +1,25 @@
 <script>
+import { state } from '../state.js'
+
 export default {
-    name: 'AppNav'
+    name: 'AppNav',
+    data() {
+        return {
+            state
+        }
+    }
 }
 </script>
 
 <template>
     <nav>
         <ul class="text d-flex justify-content-center">
-            <li class="active">Home <a href="#"><i class="fa-solid fa-angle-down"></i></a></li>
-            <li>Shop <a href="#"><i class="fa-solid fa-angle-down"></i></a></li>
-            <li>About</li>
-            <li>Blog</li>
-            <li>Contact</li>
-            <li>Show by brand <a href="#"><i class="fa-solid fa-angle-down"></i></a></li>
+            <a :class="i === 0 ? 'active' : ''" v-for="(link, i) in state.navbarLinks">
+                {{ link.text }}
+                <span v-if="link.text === 'Home' | link.text === 'Shop' | link.text === 'Show by brand'">
+                    <i class="fa-solid fa-angle-down"></i>
+                </span>
+            </a>
         </ul>
     </nav>
 </template>
@@ -26,7 +33,7 @@ nav {
     .active {
         color: black;
 
-        a {
+        span {
 
             filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(145deg) brightness(98%) contrast(101%);
         }
@@ -34,15 +41,15 @@ nav {
 
     ul {
         list-style-type: none;
-        color: $cube--gray;
         font-weight: 500;
 
-        li {
+        a {
+            color: $cube--gray;
             margin: 0 1rem;
+            text-decoration: none;
+            cursor: pointer;
 
-
-
-            a {
+            span {
 
                 font-size: 0.75rem;
                 color: black;
