@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <div class="pt-5">
+    <section class="pt-5">
         <div class="container pt-5">
             <div class="d-flex justify-content-between align-items-center">
                 <div>
@@ -50,7 +50,7 @@ export default {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <style lang="scss" scoped>

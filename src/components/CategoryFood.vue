@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <div class="container">
+    <section class="container">
         <div class="row row-cols-3 pt-5 text-center text-white mb-5">
             <div class="col">
                 <div class="food_item">
@@ -38,7 +38,7 @@ export default {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <style lang="scss" scoped>

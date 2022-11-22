@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <div class="text-center pt-5">
+    <section class="text-center pt-5">
         <div class="container pt-5">
             <h3>Browse by category</h3>
             <div class="row justify-content-center">
@@ -36,7 +36,7 @@ export default {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <style lang="scss" scoped>
