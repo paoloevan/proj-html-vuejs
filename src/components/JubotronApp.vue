@@ -5,7 +5,17 @@ export default {
 </script>
 
 <template>
-    <div class="top_jumbo ">
+    <div class="top_jumbo position-relative">
+        <div class="banner_jumbo  position-absolute top-0 end-0 text-center">
+            <div class="banner_demos">
+                <i class="fa-solid fa-folder"></i>
+                <div>Demos</div>
+            </div>
+            <div class="on_sale">
+                $<span>39</span>
+                <div>On Sale</div>
+            </div>
+        </div>
         <div class="container d-flex justify-content-around text-white py-3">
             <div>
                 <i class="fa-regular fa-map"></i><strong> Internation</strong> Shipping Service
@@ -60,6 +70,16 @@ export default {
     a {
         font-weight: 200;
         color: white;
+    }
+
+    .banner_jumbo {
+        z-index: 999;
+
+        .banner_demos,
+        .on_sale {
+            background-color: white;
+            margin: 0.25rem 0;
+        }
     }
 }
 
