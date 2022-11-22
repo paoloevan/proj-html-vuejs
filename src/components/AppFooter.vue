@@ -80,7 +80,7 @@ export default {
 @use '../assets/sass/partials/palette' as *;
 
 footer {
-    background-color: $median--primary;
+    background-color: $cube--primary;
 
     hr {
         background-color: $median--light-primary;

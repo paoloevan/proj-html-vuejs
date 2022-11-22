@@ -60,7 +60,7 @@ export default {
 
 .top_jumbo,
 .bottom_jumbo {
-    background-color: $median--primary;
+    background-color: $cube--primary;
     background-image: url(../assets/img/bg-transparent-3.png);
 
     strong {

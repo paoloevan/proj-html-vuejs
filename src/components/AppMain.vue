@@ -3,13 +3,15 @@ import AppNav from '../components/AppNav.vue'
 import { state } from '../state.js'
 import JubotronApp from '../components/JubotronApp.vue'
 import CategoryItem from '../components/CategoryItem.vue'
+import CategoryFood from '../components/CategoryFood.vue'
 
 export default {
     name: 'AppMain',
     components: {
         AppNav,
         JubotronApp,
-        CategoryItem
+        CategoryItem,
+        CategoryFood
     },
     data() {
         return {
@@ -29,6 +31,9 @@ export default {
 
         <CategoryItem />
         <!-- / Category -->
+
+        <CategoryFood />
+        <!-- / Category food -->
     </main>
 </template>
 
