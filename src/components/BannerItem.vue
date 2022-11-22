@@ -14,7 +14,7 @@ export default {
                         <div class="col text-center">
                             <div class="h-100 text-white">
                                 <div class="small_text text-uppercase mb-4">find the best animal supplies</div>
-                                <h4>New arrivals weekly</h4>
+                                <h4>Popular accessories</h4>
                                 <button class="smaller_text mt-3" type="button">View all toys accessories</button>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ export default {
                         <div class="col text-center">
                             <div class="h-100 text-white">
                                 <div class="small_text text-uppercase mb-4">find the best food</div>
-                                <h4>New arrivals weekly</h4>
+                                <h4>New food arrival</h4>
                                 <button class="smaller_text mt-3" type="button">View all food products</button>
                             </div>
                         </div>
