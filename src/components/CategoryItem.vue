@@ -10,7 +10,8 @@ export default {
             <h3>Browse by category</h3>
             <div class="row justify-content-center">
 
-                <p class="text col-6 pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium error
+                <p class="small_text col-6 pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium
+                    error
                     quam
                     quaerat
                     obcaecati a ipsa perspiciatis ab.

@@ -37,7 +37,7 @@ section {
     background-color: $cube--primary;
     background-image: url(../assets/img/bg-transparent-3.png);
     background-repeat: repeat-x;
-    padding: 8rem 0;
+    padding: 6rem 0;
 
     .col {
         font-size: 2rem;

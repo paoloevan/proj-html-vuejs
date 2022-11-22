@@ -11,6 +11,7 @@ import NewsletterItem from '../components/NewsletterItem.vue'
 import TipsItem from '../components/TipsItem.vue'
 import BannerItem from '../components/BannerItem.vue'
 import CalltoactionItem from '../components/CalltoactionItem.vue'
+import NewproductsItem from '../components/NewproductsItem.vue'
 
 export default {
     name: 'AppMain',
@@ -25,7 +26,8 @@ export default {
         NewsletterItem,
         TipsItem,
         BannerItem,
-        CalltoactionItem
+        CalltoactionItem,
+        NewproductsItem
     },
     data() {
         return {
@@ -69,6 +71,9 @@ export default {
 
         <CalltoactionItem />
         <!-- / CalltoactionItem -->
+
+        <NewproductsItem />
+        <!-- / NewproductsItem -->
     </main>
 </template>
 

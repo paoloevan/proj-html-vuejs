@@ -21,14 +21,14 @@ export default {
                 <div>
                     <img src="../assets/img/product-21-400x400.jpg" alt="">
                     <div>Transport cage</div>
-                    <div class="price">
+                    <div class="price smaller_text">
                         $25.00
                     </div>
                 </div>
                 <div>
                     <img src="../assets/img/product-20-400x400.jpg" alt="">
                     <div>Dog leash</div>
-                    <div class="price">
+                    <div class="price smaller_text">
                         $25.00
                     </div>
                 </div>
@@ -37,14 +37,14 @@ export default {
                 <div>
                     <img src="../assets/img/product-16-400x400.jpg" alt="">
                     <div>Animal transport cage</div>
-                    <div class="price">
+                    <div class="price smaller_text">
                         <del>$35.00</del> $25.00
                     </div>
                 </div>
                 <div>
                     <img src="../assets/img/product-11-400x400.jpg" alt="">
                     <div>Colorful cat leash</div>
-                    <div class="price">
+                    <div class="price smaller_text">
                         $12.00
                     </div>
                 </div>
@@ -77,6 +77,7 @@ img {
     color: $median--light-primary;
 
     del {
+        color: black;
         font-size: 0.75rem;
     }
 }
