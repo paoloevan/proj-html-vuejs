@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <secion class="main_jumbo position-relative mb-5">
+    <section class="main_jumbo position-relative mb-5">
         <div class="container">
             <img class="" src="../assets/img/banner-3-2x-scaled.jpg" alt="">
             <div class="row position-absolute align-items-center justify-content-center">
@@ -18,7 +18,7 @@ export default {
                 </div>
             </div>
         </div>
-    </secion>
+    </section>
 </template>
 
 <style lang="scss" scoped>
