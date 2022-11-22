@@ -7,7 +7,7 @@ export default {
 <template>
     <section class="banner d-flex mt-5">
         <div class="col-6 banner_left">
-            <div class="main_jumbo position-relative mb-5">
+            <div class="main_jumbo position-relative">
                 <div class="container-fluid g-0">
                     <img class="" src="../assets/img/banner-8-2x.jpg" alt="">
                     <div class="row position-absolute align-items-center justify-content-center">
@@ -23,13 +23,13 @@ export default {
             </div>
         </div>
         <div class="col-6 banner_right">
-            <div class="main_jumbo position-relative mb-5">
+            <div class="main_jumbo position-relative">
                 <div class="container-fluid g-0">
                     <img class="" src="../assets/img/banner-9-2x.jpg" alt="">
                     <div class="row position-absolute align-items-center justify-content-center g-0">
                         <div class="col text-center">
                             <div class="h-100 text-white">
-                                <div class="small_text text-uppercase mb-4">find the best animal supplies</div>
+                                <div class="small_text text-uppercase mb-4">find the best food</div>
                                 <h4>New arrivals weekly</h4>
                                 <button class="smaller_text mt-3" type="button">View all food products</button>
                             </div>

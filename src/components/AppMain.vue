@@ -1,6 +1,6 @@
 <script>
-import AppNav from '../components/AppNav.vue'
 import { state } from '../state.js'
+import AppNav from '../components/AppNav.vue'
 import JubotronApp from '../components/JubotronApp.vue'
 import CategoryItem from '../components/CategoryItem.vue'
 import CategoryFood from '../components/CategoryFood.vue'
@@ -10,6 +10,7 @@ import TestimonialsItem from '../components/TestimonialsItem.vue'
 import NewsletterItem from '../components/NewsletterItem.vue'
 import TipsItem from '../components/TipsItem.vue'
 import BannerItem from '../components/BannerItem.vue'
+import CalltoactionItem from '../components/CalltoactionItem.vue'
 
 export default {
     name: 'AppMain',
@@ -23,7 +24,8 @@ export default {
         TestimonialsItem,
         NewsletterItem,
         TipsItem,
-        BannerItem
+        BannerItem,
+        CalltoactionItem
     },
     data() {
         return {
@@ -36,7 +38,7 @@ export default {
 <template>
     <main>
         <AppNav :navBar="state.mainNav" />
-        <!-- 7 navbar -->
+        <!-- / navbar -->
 
         <JubotronApp />
         <!-- / jumbotron -->
@@ -64,6 +66,9 @@ export default {
 
         <BannerItem />
         <!-- / BannerItem -->
+
+        <CalltoactionItem />
+        <!-- / CalltoactionItem -->
     </main>
 </template>
 
