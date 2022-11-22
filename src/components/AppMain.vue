@@ -2,12 +2,14 @@
 import AppNav from '../components/AppNav.vue'
 import { state } from '../state.js'
 import JubotronApp from '../components/JubotronApp.vue'
+import CategoryItem from '../components/CategoryItem.vue'
 
 export default {
     name: 'AppMain',
     components: {
         AppNav,
-        JubotronApp
+        JubotronApp,
+        CategoryItem
     },
     data() {
         return {
@@ -24,6 +26,9 @@ export default {
 
         <JubotronApp />
         <!-- / jumbotron -->
+
+        <CategoryItem />
+        <!-- / Category -->
     </main>
 </template>
 
