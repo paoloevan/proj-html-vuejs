@@ -36,7 +36,6 @@ export default {
         background-size: cover;
         background-repeat: no-repeat;
         background-position-x: right;
-        // backgroud-image: linear-gradient(white, grey);
     }
 
     .subscription {

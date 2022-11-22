@@ -9,6 +9,7 @@ import BestItem from '../components/BestItem.vue'
 import TestimonialsItem from '../components/TestimonialsItem.vue'
 import NewsletterItem from '../components/NewsletterItem.vue'
 import TipsItem from '../components/TipsItem.vue'
+import BannerItem from '../components/BannerItem.vue'
 
 export default {
     name: 'AppMain',
@@ -21,7 +22,8 @@ export default {
         BestItem,
         TestimonialsItem,
         NewsletterItem,
-        TipsItem
+        TipsItem,
+        BannerItem
     },
     data() {
         return {
@@ -59,6 +61,9 @@ export default {
 
         <TipsItem />
         <!-- / TipsItem -->
+
+        <BannerItem />
+        <!-- / BannerItem -->
     </main>
 </template>
 

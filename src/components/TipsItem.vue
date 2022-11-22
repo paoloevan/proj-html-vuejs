@@ -50,7 +50,7 @@ export default {
             </div>
 
             <div class="text-center">
-                <button class="small_text text-white">Read All articles</button>
+                <button class="smaller_text text-white">Read All articles</button>
             </div>
         </div>
     </section>

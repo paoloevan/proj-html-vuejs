@@ -24,31 +24,6 @@ export default {
 <style lang="scss" scoped>
 @use '../assets/sass/partials/palette' as *;
 
-.top_jumbo,
-.bottom_jumbo {
-    background-color: $cube--primary;
-    background-image: url(../assets/img/bg-transparent-3.png);
-
-    strong {
-        font-weight: 800;
-    }
-
-    a {
-        font-weight: 200;
-        color: white;
-    }
-
-    .banner_jumbo {
-        z-index: 999;
-
-        .banner_demos,
-        .on_sale {
-            background-color: white;
-            margin: 0.25rem 0;
-        }
-    }
-}
-
 .main_jumbo {
 
     img {
