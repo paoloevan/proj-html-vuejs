@@ -8,6 +8,7 @@ import ArrivalsJumbo from '../components/ArrivalsJumbo.vue'
 import BestItem from '../components/BestItem.vue'
 import TestimonialsItem from '../components/TestimonialsItem.vue'
 import NewsletterItem from '../components/NewsletterItem.vue'
+import TipsItem from '../components/TipsItem.vue'
 
 export default {
     name: 'AppMain',
@@ -19,7 +20,8 @@ export default {
         ArrivalsJumbo,
         BestItem,
         TestimonialsItem,
-        NewsletterItem
+        NewsletterItem,
+        TipsItem
     },
     data() {
         return {
@@ -54,6 +56,9 @@ export default {
 
         <NewsletterItem />
         <!-- / NewsletterItem -->
+
+        <TipsItem />
+        <!-- / TipsItem -->
     </main>
 </template>
 
