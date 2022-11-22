@@ -5,6 +5,7 @@ import JubotronApp from '../components/JubotronApp.vue'
 import CategoryItem from '../components/CategoryItem.vue'
 import CategoryFood from '../components/CategoryFood.vue'
 import ArrivalsJumbo from '../components/ArrivalsJumbo.vue'
+import BestItem from '../components/BestItem.vue'
 
 export default {
     name: 'AppMain',
@@ -13,7 +14,8 @@ export default {
         JubotronApp,
         CategoryItem,
         CategoryFood,
-        ArrivalsJumbo
+        ArrivalsJumbo,
+        BestItem
     },
     data() {
         return {
@@ -39,6 +41,9 @@ export default {
 
         <ArrivalsJumbo />
         <!-- / ArrivalsJumbo -->
+
+        <BestItem />
+        <!-- /  BestItem-->
     </main>
 </template>
 

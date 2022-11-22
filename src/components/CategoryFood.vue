@@ -54,7 +54,7 @@ export default {
         background-color: $median--light-primary;
         color: white;
         border: none;
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 2rem;
         border-radius: 20px;
     }
 }
