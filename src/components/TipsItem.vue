@@ -48,6 +48,10 @@ export default {
                     </div>
                 </div>
             </div>
+
+            <div class="text-center">
+                <button class="small_text text-white">Read All articles</button>
+            </div>
         </div>
     </section>
 </template>
@@ -57,6 +61,15 @@ export default {
 
 img {
     margin-bottom: 1rem;
+}
+
+button {
+    background-color: #427542;
+    border: none;
+    border-radius: 30px;
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 2rem;
+
 }
 
 .small_text {

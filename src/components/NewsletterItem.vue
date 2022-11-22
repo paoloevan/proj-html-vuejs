@@ -58,7 +58,7 @@ export default {
             background-color: #427542;
             border: none;
             border-radius: 30px;
-            padding: 1rem 1rem;
+            padding: 0.25rem 1rem;
             margin-bottom: 2rem;
         }
     }
