@@ -47,7 +47,7 @@ export default {
 .food_item {
     background-color: $cube--primary;
     background-image: url(../assets/img/bg-transparent-3.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     padding: 5rem;
 
     button {
@@ -56,6 +56,10 @@ export default {
         border: none;
         padding: 0.5rem 2rem;
         border-radius: 20px;
+    }
+
+    .text {
+        color: $median--light-primary;
     }
 }
 </style>

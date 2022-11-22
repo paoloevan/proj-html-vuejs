@@ -37,9 +37,9 @@ export default {
             <div class="row position-absolute align-items-center">
                 <div class="col-6">
                     <div class="h-100 text-white">
-                        <div class="text text-uppercase mb-5">find the best animal supplies</div>
+                        <div class="small_text text-uppercase mb-5">find the best animal supplies</div>
                         <h1>We know animals are a part of your family, let us help take care of theme</h1>
-                        <button class="mt-3" type="button">Lear more about us</button>
+                        <button class="small_text mt-3" type="button">Lear more about us</button>
                     </div>
                 </div>
             </div>

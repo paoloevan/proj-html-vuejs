@@ -11,9 +11,9 @@ export default {
             <div class="row position-absolute align-items-center justify-content-center">
                 <div class="col text-center">
                     <div class="h-100 text-white">
-                        <div class="text text-uppercase mb-5">find the best animal supplies</div>
+                        <div class="small_text text-uppercase mb-5">find the best animal supplies</div>
                         <h1>New arrivals weekly</h1>
-                        <button class="mt-3" type="button">Lear more about us</button>
+                        <button class="small_text mt-3" type="button">Lear more about us</button>
                     </div>
                 </div>
             </div>

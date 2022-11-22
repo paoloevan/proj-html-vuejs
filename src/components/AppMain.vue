@@ -6,6 +6,7 @@ import CategoryItem from '../components/CategoryItem.vue'
 import CategoryFood from '../components/CategoryFood.vue'
 import ArrivalsJumbo from '../components/ArrivalsJumbo.vue'
 import BestItem from '../components/BestItem.vue'
+import TestimonialsItem from '../components/TestimonialsItem.vue'
 
 export default {
     name: 'AppMain',
@@ -15,7 +16,8 @@ export default {
         CategoryItem,
         CategoryFood,
         ArrivalsJumbo,
-        BestItem
+        BestItem,
+        TestimonialsItem
     },
     data() {
         return {
@@ -44,6 +46,9 @@ export default {
 
         <BestItem />
         <!-- /  BestItem-->
+
+        <TestimonialsItem />
+        <!-- / TesttimonialsItem -->
     </main>
 </template>
 
