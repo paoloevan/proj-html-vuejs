@@ -33,7 +33,7 @@ export default {
                 </div>
 
                 <div class="col">
-                    <h4>Shop by brand</h4>
+                    <h5>Shop by brand</h5>
                     <a href="#">Bed</a>
                     <a href="#">Food</a>
                     <a href="#">Toys</a>
@@ -41,7 +41,7 @@ export default {
                 </div>
 
                 <div class="col">
-                    <h4>Useful links</h4>
+                    <h5>Useful links</h5>
                     <a href="#">My account</a>
                     <a href="#">Orders</a>
                     <a href="#">Checkout</a>
@@ -49,7 +49,7 @@ export default {
                 </div>
 
                 <div class="col call_to_action">
-                    <h4>Subscribe to our newsletter</h4>
+                    <h5>Subscribe to our newsletter</h5>
                     <input type="email" placeholder="Insert your email">
                     <button>Subscribe</button>
                 </div>
@@ -96,23 +96,26 @@ footer {
     .call_to_action {
         padding: 2rem 1rem 1rem 1rem;
         border-radius: 5px;
-        background-color: $median--light-primary;
+        background-color: #365f36;
+        background-image: url(../assets/img/bg-transparent-3.png);
+        background-repeat: no-repeat;
 
         input {
             border: none;
-            margin-bottom: 1rem;
-            border-radius: 20px;
+            margin-bottom: 2rem;
+            border-radius: 30px;
             width: 100%;
-            padding: 0.5rem 1rem;
+            padding: 1rem 1rem;
         }
 
         button {
             color: white;
-            background-color: $median--primary;
+            background-color: #427542;
             border: none;
-            border-radius: 20px;
+            border-radius: 30px;
             width: 100%;
-            padding: 0.5rem 1rem;
+            padding: 1rem 1rem;
+            margin-bottom: 2rem;
         }
     }
 
@@ -122,12 +125,16 @@ footer {
         }
     }
 
-    h4,
+    h5,
     a {
         color: $cube--light;
         text-decoration: none;
         display: block;
         margin-bottom: 1rem;
+    }
+
+    h5 {
+        margin-bottom: 2rem;
     }
 
 
