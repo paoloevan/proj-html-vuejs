@@ -4,6 +4,7 @@ import { state } from '../state.js'
 import JubotronApp from '../components/JubotronApp.vue'
 import CategoryItem from '../components/CategoryItem.vue'
 import CategoryFood from '../components/CategoryFood.vue'
+import ArrivalsJumbo from '../components/ArrivalsJumbo.vue'
 
 export default {
     name: 'AppMain',
@@ -11,7 +12,8 @@ export default {
         AppNav,
         JubotronApp,
         CategoryItem,
-        CategoryFood
+        CategoryFood,
+        ArrivalsJumbo
     },
     data() {
         return {
@@ -34,6 +36,9 @@ export default {
 
         <CategoryFood />
         <!-- / Category food -->
+
+        <ArrivalsJumbo />
+        <!-- / ArrivalsJumbo -->
     </main>
 </template>
 
