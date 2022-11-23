@@ -1,5 +1,4 @@
 <script>
-import AppNav from './AppNav.vue'
 import FooterTop from '../footer/FooterTop.vue'
 import FooterNav from '../footer/FooterNav.vue'
 import FooterBottom from '../footer/FooterBottom.vue'
@@ -7,7 +6,6 @@ import FooterBottom from '../footer/FooterBottom.vue'
 export default {
     name: 'AppFooter',
     components: {
-        AppNav,
         FooterTop,
         FooterNav,
         FooterBottom
