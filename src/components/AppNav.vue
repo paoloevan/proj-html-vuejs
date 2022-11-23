@@ -42,6 +42,7 @@ nav {
         font-weight: 500;
 
         a {
+            font-size: 14px;
             color: $cube--gray;
             margin: 0 1rem;
             text-decoration: none;
