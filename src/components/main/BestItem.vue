@@ -18,15 +18,35 @@ export default {
             </div>
 
             <div class="row row-cols-4 pb-5 mt-5 text-center">
-                <div>
-                    <img src="../../assets/img/product-21-400x400.jpg" alt="">
+                <div class="card_item">
+                    <div class="position-relative mb-3">
+                        <div
+                            class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
+                            <div class="text_hover">
+                                <i class="fa-solid fa-square-check"></i>
+                            </div>
+                            <div class="smaller_text text-uppercase">view cart</div>
+                        </div>
+
+                        <img src="../../assets/img/product-21-400x400.jpg" alt="">
+                    </div>
                     <div>Transport cage</div>
                     <div class="price smaller_text">
                         $25.00
                     </div>
                 </div>
-                <div>
-                    <img src="../../assets/img/product-20-400x400.jpg" alt="">
+                <div class="card_item">
+                    <div class="position-relative mb-3">
+                        <div
+                            class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
+                            <div class="text_hover">
+                                <i class="fa-solid fa-square-check"></i>
+                            </div>
+                            <div class="smaller_text text-uppercase">view cart</div>
+                        </div>
+
+                        <img src="../../assets/img/product-20-400x400.jpg" alt="">
+                    </div>
                     <div>Dog leash</div>
                     <div class="price smaller_text">
                         $25.00
@@ -34,15 +54,35 @@ export default {
                 </div>
 
 
-                <div>
-                    <img src="../../assets/img/product-16-400x400.jpg" alt="">
+                <div class="card_item">
+                    <div class="position-relative mb-3">
+                        <div
+                            class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
+                            <div class="text_hover">
+                                <i class="fa-solid fa-square-check"></i>
+                            </div>
+                            <div class="smaller_text text-uppercase">view cart</div>
+                        </div>
+
+                        <img src="../../assets/img/product-16-400x400.jpg" alt="">
+                    </div>
                     <div>Animal transport cage</div>
                     <div class="price smaller_text">
                         <del>$35.00</del> $25.00
                     </div>
                 </div>
-                <div>
-                    <img src="../../assets/img/product-11-400x400.jpg" alt="">
+                <div class="card_item">
+                    <div class="position-relative mb-3">
+                        <div
+                            class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
+                            <div class="text_hover">
+                                <i class="fa-solid fa-square-check"></i>
+                            </div>
+                            <div class="smaller_text text-uppercase">view cart</div>
+                        </div>
+
+                        <img src="../../assets/img/product-11-400x400.jpg" alt="">
+                    </div>
                     <div>Colorful cat leash</div>
                     <div class="price smaller_text">
                         $12.00
@@ -68,10 +108,6 @@ button {
     border-radius: 20px;
 }
 
-img {
-    margin-bottom: 1rem;
-}
-
 .price {
     margin-top: 0.5rem;
     color: $median--light-primary;
@@ -80,5 +116,34 @@ img {
         color: black;
         font-size: 0.75rem;
     }
+}
+
+.card_item {
+
+    &:hover .view_cart {
+        visibility: visible;
+        cursor: pointer;
+        background-color: #da8b3b85;
+    }
+
+
+    .view_cart {
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        visibility: hidden;
+
+
+
+        .text_hover {
+            background-color: rgba(0, 0, 0, 0.751);
+            padding: 1rem;
+            aspect-ratio: 1;
+            border-radius: 50%;
+        }
+    }
+
 }
 </style>

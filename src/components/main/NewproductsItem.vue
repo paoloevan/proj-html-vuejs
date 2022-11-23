@@ -148,7 +148,7 @@ export default {
     &:hover .view_cart {
         visibility: visible;
         cursor: pointer;
-        background-color: #ffa64d85;
+        background-color: #da8b3b85;
     }
 
 

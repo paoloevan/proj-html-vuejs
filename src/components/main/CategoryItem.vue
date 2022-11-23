@@ -22,7 +22,7 @@ export default {
                     <div class="position-relative mb-3">
                         <div
                             class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
-                            <div class="text">
+                            <div class="text_hover">
                                 <i class="fa-solid fa-square-check"></i>
                             </div>
                             <div class="smaller_text text-uppercase">view cart</div>
@@ -35,7 +35,7 @@ export default {
                     <div class="position-relative mb-3">
                         <div
                             class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
-                            <div class=" text">
+                            <div class=" text_hover">
                                 <i class="fa-solid fa-square-check"></i>
                             </div>
                             <div class="smaller_text text-uppercase">view cart</div>
@@ -49,7 +49,7 @@ export default {
                     <div class="position-relative mb-3">
                         <div
                             class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
-                            <div class=" text">
+                            <div class=" text_hover">
                                 <i class="fa-solid fa-square-check"></i>
                             </div>
                             <div class="smaller_text text-uppercase">view cart</div>
@@ -62,7 +62,7 @@ export default {
                     <div class="position-relative mb-3">
                         <div
                             class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
-                            <div class=" text">
+                            <div class=" text_hover">
                                 <i class="fa-solid fa-square-check"></i>
                             </div>
                             <div class="smaller_text text-uppercase">view cart</div>
@@ -82,7 +82,7 @@ export default {
     &:hover .view_cart {
         visibility: visible;
         cursor: pointer;
-        background-color: #ffa64d85;
+        background-color: #da8b3b85;
     }
 
 
@@ -96,7 +96,7 @@ export default {
 
 
 
-        .text {
+        .text_hover {
             background-color: rgba(0, 0, 0, 0.751);
             padding: 1rem;
             aspect-ratio: 1;
