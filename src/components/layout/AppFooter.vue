@@ -17,17 +17,15 @@ export default {
 
 <template>
     <footer class="pt-5">
-        <div class="container py-5">
 
-            <FooterTop />
-            <!-- / FooterTop -->
+        <FooterTop />
+        <!-- / FooterTop -->
 
-            <hr>
+        <hr>
 
-            <FooterNav />
-            <!-- / FooterNav -->
+        <FooterNav />
+        <!-- / FooterNav -->
 
-        </div>
 
         <FooterBottom />
         <!-- / FooterBottom -->

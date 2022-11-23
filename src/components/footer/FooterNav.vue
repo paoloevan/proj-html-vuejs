@@ -17,7 +17,7 @@ export default {
 
 <template>
 
-    <section class="footer_nav">
+    <section class="footer_nav mb-4">
 
         <AppNav :navBar="state.footerNav" />
         <!-- / navbar -->

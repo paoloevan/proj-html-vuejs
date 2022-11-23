@@ -6,6 +6,7 @@ export default {
 
 <template>
     <section class="my_jumbotron">
+
         <div class="top_jumbo position-relative">
             <div class="banner_jumbo  position-absolute text-center">
                 <div class="banner_demos">

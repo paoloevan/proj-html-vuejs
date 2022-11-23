@@ -39,6 +39,7 @@ export default {
 
 <template>
     <main>
+
         <AppNav :navBar="state.mainNav" />
         <!-- / navbar -->
 
@@ -74,5 +75,6 @@ export default {
 
         <NewproductsItem />
         <!-- / NewproductsItem -->
+
     </main>
 </template>

@@ -7,9 +7,9 @@ export default {
 <template>
     <section class="text-center pt-5">
         <div class="container pt-5">
+
             <h3>Browse by category</h3>
             <div class="row justify-content-center">
-
                 <p class="small_text col-6 pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium
                     error
                     quam
@@ -17,6 +17,7 @@ export default {
                     obcaecati a ipsa perspiciatis ab.
                 </p>
             </div>
+
             <div class="row row-cols-4 pb-5">
                 <div class="card_item">
                     <div class="position-relative mb-3">

@@ -9,8 +9,8 @@ export default {
 </script>
 
 <template>
-    <nav>
-        <ul class="text d-flex justify-content-center">
+    <nav class="container">
+        <ul class="text d-flex justify-content-center my-1">
             <a :class="link.active ? 'active' : ''" v-for="(link, i) in navBar">
                 {{ link.text }}
                 <span

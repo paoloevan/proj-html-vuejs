@@ -35,6 +35,7 @@ export default {
                         $25.00
                     </div>
                 </div>
+
                 <div class="card_item">
                     <div class="position-relative mb-3">
                         <div
@@ -53,7 +54,6 @@ export default {
                     </div>
                 </div>
 
-
                 <div class="card_item">
                     <div class="position-relative mb-3">
                         <div
@@ -71,6 +71,7 @@ export default {
                         <del>$35.00</del> $25.00
                     </div>
                 </div>
+
                 <div class="card_item">
                     <div class="position-relative mb-3">
                         <div

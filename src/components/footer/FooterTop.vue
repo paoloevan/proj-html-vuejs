@@ -5,46 +5,49 @@ export default {
 </script>
 
 <template>
-    <section class="footer_top">
-        <div class="row row-cols-5 justify-content-between">
-            <div class="col">
+    <div class="container">
+        <section class="footer_top">
+            <div class="row row-cols-5 justify-content-between">
+                <div class="col">
 
-                <div class="logo mb-5">
-                    <img src="../../assets/img/mobile-light-pet-logo-2x-200x52.png" alt="">
+                    <div class="logo mb-5">
+                        <img src="../../assets/img/mobile-light-pet-logo-2x-200x52.png" alt="">
+                    </div>
+
+                    <address class="text-white text">
+                        1234 Avada Avenue Avadaville <br>
+                        info@your-company.com <br>
+                        Call us: (1) 234 5678
+                    </address>
                 </div>
 
-                <address class="text-white text">
-                    1234 Avada Avenue Avadaville <br>
-                    info@your-company.com <br>
-                    Call us: (1) 234 5678
-                </address>
+                <div class="col">
+                    <h5>Shop by brand</h5>
+                    <a href="#">Bed</a>
+                    <a href="#">Food</a>
+                    <a href="#">Toys</a>
+                    <a href="#">Transport</a>
+                </div>
+
+                <div class="col">
+                    <h5>Useful links</h5>
+                    <a href="#">My account</a>
+                    <a href="#">Orders</a>
+                    <a href="#">Checkout</a>
+                    <a href="#">Cart</a>
+                </div>
+
+                <div class="col call_to_action">
+                    <h5>Subscribe to our newsletter</h5>
+                    <input type="email" placeholder="Insert your email">
+                    <button>Subscribe</button>
+                </div>
+
+
             </div>
+        </section>
+    </div>
 
-            <div class="col">
-                <h5>Shop by brand</h5>
-                <a href="#">Bed</a>
-                <a href="#">Food</a>
-                <a href="#">Toys</a>
-                <a href="#">Transport</a>
-            </div>
-
-            <div class="col">
-                <h5>Useful links</h5>
-                <a href="#">My account</a>
-                <a href="#">Orders</a>
-                <a href="#">Checkout</a>
-                <a href="#">Cart</a>
-            </div>
-
-            <div class="col call_to_action">
-                <h5>Subscribe to our newsletter</h5>
-                <input type="email" placeholder="Insert your email">
-                <button>Subscribe</button>
-            </div>
-
-
-        </div>
-    </section>
 </template>
 
 <style lang="scss" scoped>
