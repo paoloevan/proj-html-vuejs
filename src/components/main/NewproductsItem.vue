@@ -18,7 +18,7 @@ export default {
                     <div class="position-relative mb-3">
                         <div
                             class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
-                            <div class="text">
+                            <div class="text_hover">
                                 <i class="fa-solid fa-square-check"></i>
                             </div>
                             <div class="smaller_text text-uppercase">view cart</div>
@@ -34,7 +34,7 @@ export default {
                     <div class="position-relative mb-3">
                         <div
                             class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
-                            <div class="text">
+                            <div class="text_hover">
                                 <i class="fa-solid fa-square-check"></i>
                             </div>
                             <div class="smaller_text text-uppercase">view cart</div>
@@ -50,7 +50,7 @@ export default {
                     <div class="position-relative mb-3">
                         <div
                             class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
-                            <div class="text">
+                            <div class="text_hover">
                                 <i class="fa-solid fa-square-check"></i>
                             </div>
                             <div class="smaller_text text-uppercase">view cart</div>
@@ -67,7 +67,7 @@ export default {
                     <div class="position-relative mb-3">
                         <div
                             class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
-                            <div class="text">
+                            <div class="text_hover">
                                 <i class="fa-solid fa-square-check"></i>
                             </div>
                             <div class="smaller_text text-uppercase">view cart</div>
@@ -83,7 +83,7 @@ export default {
                     <div class="position-relative mb-3">
                         <div
                             class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
-                            <div class="text">
+                            <div class="text_hover">
                                 <i class="fa-solid fa-square-check"></i>
                             </div>
                             <div class="smaller_text text-uppercase">view cart</div>
@@ -99,7 +99,7 @@ export default {
                     <div class="position-relative mb-3">
                         <div
                             class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
-                            <div class="text">
+                            <div class="text_hover">
                                 <i class="fa-solid fa-square-check"></i>
                             </div>
                             <div class="smaller_text text-uppercase">view cart</div>
@@ -118,6 +118,8 @@ export default {
 
 <style lang="scss" scoped>
 @use '../../assets/sass/partials/palette' as *;
+@use '../../assets/sass/partials/hoverCard.scss';
+
 
 .small_text {
     color: $median--light-primary;
@@ -141,34 +143,5 @@ export default {
     padding: 0.25rem;
     border-radius: 50%;
     color: white;
-}
-
-.card_item {
-
-    &:hover .view_cart {
-        visibility: visible;
-        cursor: pointer;
-        background-color: #da8b3b85;
-    }
-
-
-    .view_cart {
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        visibility: hidden;
-
-
-
-        .text {
-            background-color: rgba(0, 0, 0, 0.751);
-            padding: 1rem;
-            aspect-ratio: 1;
-            border-radius: 50%;
-        }
-    }
-
 }
 </style>

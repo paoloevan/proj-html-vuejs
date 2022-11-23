@@ -77,32 +77,5 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.card_item {
-
-    &:hover .view_cart {
-        visibility: visible;
-        cursor: pointer;
-        background-color: #da8b3b85;
-    }
-
-
-    .view_cart {
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        visibility: hidden;
-
-
-
-        .text_hover {
-            background-color: rgba(0, 0, 0, 0.751);
-            padding: 1rem;
-            aspect-ratio: 1;
-            border-radius: 50%;
-        }
-    }
-
-}
+@use '../../assets/sass/partials/hoverCard.scss';
 </style>
