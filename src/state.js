@@ -56,5 +56,11 @@ export const state = reactive({
             href: `#`
         },
 
-    ]
-})
+    ],
+    getYear() {
+        const d = new Date();
+        let year = d.getFullYear();
+        return year
+    }
+}
+)
