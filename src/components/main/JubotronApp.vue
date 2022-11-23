@@ -7,13 +7,13 @@ export default {
 <template>
     <section class="my_jumbotron">
         <div class="top_jumbo position-relative">
-            <div class="banner_jumbo  position-absolute top-0 end-0 text-center">
+            <div class="banner_jumbo  position-absolute text-center">
                 <div class="banner_demos">
-                    <i class="fa-solid fa-folder"></i>
+                    <span><i class="fa-solid fa-folder"></i></span>
                     <div>Demos</div>
                 </div>
                 <div class="on_sale">
-                    $<span>39</span>
+                    <div class="price">$<span>39</span></div>
                     <div>On Sale</div>
                 </div>
             </div>
@@ -77,11 +77,24 @@ export default {
 
     .banner_jumbo {
         z-index: 999;
+        top: 10px;
+        right: 10px;
 
         .banner_demos,
         .on_sale {
+            font-size: 0.75rem;
             background-color: white;
             margin: 0.25rem 0;
+            border-radius: 5px;
+            padding: 0.25rem;
+
+            .price {
+                color: $cube--apple;
+            }
+
+            span {
+                font-size: 1.25rem;
+            }
         }
     }
 }
