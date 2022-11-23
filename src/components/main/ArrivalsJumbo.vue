@@ -43,6 +43,11 @@ export default {
         background-color: white;
         border-radius: 20px;
         padding: 0.5rem 1.5rem;
+
+        &:hover {
+            background-color: $median--light-primary;
+            color: white;
+        }
     }
 }
 </style>

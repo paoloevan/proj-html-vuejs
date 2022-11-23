@@ -50,6 +50,12 @@ export default {
     background-repeat: repeat-x;
     padding: 5rem;
 
+    &:hover {
+        scale: 1.05;
+        background-color: $median--primary;
+        transition: scale 0.25s;
+    }
+
     button {
         background-color: $median--light-primary;
         color: white;
