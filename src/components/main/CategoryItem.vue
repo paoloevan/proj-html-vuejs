@@ -19,20 +19,20 @@ export default {
             </div>
             <div class="row row-cols-4 pb-5">
                 <div>
-                    <img src="../assets/img/product-9.jpg" alt="">
+                    <img src="../../assets/img/product-9.jpg" alt="">
                     <div>Bed (1)</div>
                 </div>
                 <div>
-                    <img src="../assets/img/product-3.jpg" alt="">
+                    <img src="../../assets/img/product-3.jpg" alt="">
                     <div>Food (6)</div>
 
                 </div>
                 <div>
-                    <img src="../assets/img/product-2.jpg" alt="">
+                    <img src="../../assets/img/product-2.jpg" alt="">
                     <div>Toys (6)</div>
                 </div>
                 <div>
-                    <img src="../assets/img/product-4.jpg" alt="">
+                    <img src="../../assets/img/product-4.jpg" alt="">
                     <div>Transport (6)</div>
                 </div>
             </div>

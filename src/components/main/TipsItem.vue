@@ -16,7 +16,7 @@ export default {
             </div>
             <div class="row row-cols-4 pb-5 g-5">
                 <div>
-                    <img src="../assets/img/blog-1.jpg" alt="">
+                    <img src="../../assets/img/blog-1.jpg" alt="">
                     <div class="text p-4">How to 'loose leash walk' your dog
                         <div class="small_text">
                             Apr 21st, 2020
@@ -24,7 +24,7 @@ export default {
                     </div>
                 </div>
                 <div>
-                    <img src="../assets/img/blog-2.jpg" alt="">
+                    <img src="../../assets/img/blog-2.jpg" alt="">
                     <div class="text p-4">Stop cats from stratching forniture
                         <div class="small_text">
                             Apr 19th, 2020
@@ -32,7 +32,7 @@ export default {
                     </div>
                 </div>
                 <div>
-                    <img src="../assets/img/blog-3.jpg" alt="">
+                    <img src="../../assets/img/blog-3.jpg" alt="">
                     <div class="text p-4">Where to buy the best pet food
                         <div class="small_text">
                             Apr 18th, 2020
@@ -40,7 +40,7 @@ export default {
                     </div>
                 </div>
                 <div>
-                    <img src="../assets/img/blog-4.jpg" alt="">
+                    <img src="../../assets/img/blog-4.jpg" alt="">
                     <div class="text p-4">Proper care for you pet toys
                         <div class="small_text">
                             Apr 17th, 2020
@@ -57,7 +57,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/sass/partials/palette' as *;
+@use '../../assets/sass/partials/palette' as *;
 
 img {
     margin-bottom: 1rem;

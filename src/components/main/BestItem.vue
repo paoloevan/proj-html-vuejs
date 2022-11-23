@@ -19,14 +19,14 @@ export default {
 
             <div class="row row-cols-4 pb-5 mt-5 text-center">
                 <div>
-                    <img src="../assets/img/product-21-400x400.jpg" alt="">
+                    <img src="../../assets/img/product-21-400x400.jpg" alt="">
                     <div>Transport cage</div>
                     <div class="price smaller_text">
                         $25.00
                     </div>
                 </div>
                 <div>
-                    <img src="../assets/img/product-20-400x400.jpg" alt="">
+                    <img src="../../assets/img/product-20-400x400.jpg" alt="">
                     <div>Dog leash</div>
                     <div class="price smaller_text">
                         $25.00
@@ -35,14 +35,14 @@ export default {
 
 
                 <div>
-                    <img src="../assets/img/product-16-400x400.jpg" alt="">
+                    <img src="../../assets/img/product-16-400x400.jpg" alt="">
                     <div>Animal transport cage</div>
                     <div class="price smaller_text">
                         <del>$35.00</del> $25.00
                     </div>
                 </div>
                 <div>
-                    <img src="../assets/img/product-11-400x400.jpg" alt="">
+                    <img src="../../assets/img/product-11-400x400.jpg" alt="">
                     <div>Colorful cat leash</div>
                     <div class="price smaller_text">
                         $12.00
@@ -54,7 +54,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/sass/partials/palette' as *;
+@use '../../assets/sass/partials/palette' as *;
 
 .text {
     color: $median--light-primary;

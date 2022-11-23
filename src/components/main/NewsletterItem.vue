@@ -25,14 +25,14 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/sass/partials/palette' as *;
+@use '../../assets/sass/partials/palette' as *;
 
 .newsletter {
     margin-top: -5rem;
 
     .container {
         padding: 8rem 6rem;
-        background-image: url(../assets/img/banner-7-2x-scaled.jpg);
+        background-image: url(../../assets/img/banner-7-2x-scaled.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position-x: right;

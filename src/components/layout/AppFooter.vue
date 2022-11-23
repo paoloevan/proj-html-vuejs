@@ -1,6 +1,6 @@
 <script>
 import AppNav from './AppNav.vue'
-import { state } from '../state.js'
+import { state } from '../../state.js'
 
 export default {
     name: 'AppFooter',
@@ -18,12 +18,13 @@ export default {
 <template>
     <footer class="pt-5">
         <div class="container py-5">
+
             <section class="footer_top">
                 <div class="row row-cols-5 justify-content-between">
                     <div class="col">
 
                         <div class="logo mb-5">
-                            <img src="../assets/img/mobile-light-pet-logo-2x-200x52.png" alt="">
+                            <img src="../../assets/img/mobile-light-pet-logo-2x-200x52.png" alt="">
                         </div>
 
                         <address class="text-white text">
@@ -83,7 +84,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/sass/partials/palette' as *;
+@use '../../assets/sass/partials/palette' as *;
 
 footer {
     background-color: $cube--primary;
@@ -105,7 +106,7 @@ footer {
         padding: 2rem 1.25rem 0.5rem 1.25rem;
         border-radius: 5px;
         background-color: #365f36;
-        background-image: url(../assets/img/bg-transparent-3.png);
+        background-image: url(../../assets/img/bg-transparent-3.png);
         background-repeat: no-repeat;
 
         input {

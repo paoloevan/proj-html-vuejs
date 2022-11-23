@@ -9,7 +9,7 @@ export default {
     <header>
         <div class="container d-flex justify-content-between align-items-center">
             <div class="logo">
-                <img src="../assets/img/dark-pet-logo.png" alt="">
+                <img src="../../assets/img/dark-pet-logo.png" alt="">
             </div>
 
             <div class="input_container">
@@ -32,7 +32,7 @@ export default {
 
 
 <style lang="scss" scoped>
-@use '../assets/sass/partials/palette' as *;
+@use '../../assets/sass/partials/palette' as *;
 
 header {
     padding: 1rem;

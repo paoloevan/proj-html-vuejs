@@ -11,7 +11,7 @@ export default {
             <h3>Users Testimonials</h3>
             <div class="row row-cols-3 mt-5">
                 <div class="col px-5">
-                    <img width="100" src="../assets/img/avatar-4-200x200.jpg" alt="">
+                    <img width="100" src="../../assets/img/avatar-4-200x200.jpg" alt="">
                     <p class="small_text text-white my-4">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sunt modi dolor blanditiis sequi
                         quo iure magni atque et fuga?
@@ -21,7 +21,7 @@ export default {
                     </div>
                 </div>
                 <div class="col px-5">
-                    <img width="100" src="../assets/img/avatar-1-200x200.jpg" alt="">
+                    <img width="100" src="../../assets/img/avatar-1-200x200.jpg" alt="">
                     <p class="small_text text-white my-4">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia praesentium dolores numquam,
                         amet adipisci esse nulla ipsum sint modi aperiam.
@@ -31,7 +31,7 @@ export default {
                     </div>
                 </div>
                 <div class="col px-5">
-                    <img width="100" src="../assets/img/avatar-3-200x200.jpg" alt="">
+                    <img width="100" src="../../assets/img/avatar-3-200x200.jpg" alt="">
                     <p class="small_text text-white my-4">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse exercitationem accusantium
                         mollitia. Eaque cumque labore excepturi maiores dolor est amet?
@@ -46,11 +46,11 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/sass/partials/palette' as *;
+@use '../../assets/sass/partials/palette' as *;
 
 .testimonials {
     background-color: $cube--primary;
-    background-image: url(../assets/img/bg-transparent-3.png);
+    background-image: url(../../assets/img/bg-transparent-3.png);
     background-repeat: repeat-x;
     padding-bottom: 12rem;
 

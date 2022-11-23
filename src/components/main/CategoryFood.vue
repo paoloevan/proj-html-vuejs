@@ -13,7 +13,7 @@ export default {
                     <div class="text">
                         Dry dog food
                     </div>
-                    <img src="../assets/img/food-transparent-18-400x420.png" alt="">
+                    <img src="../../assets/img/food-transparent-18-400x420.png" alt="">
                     <button>Shop dry food</button>
                 </div>
             </div>
@@ -23,7 +23,7 @@ export default {
                     <div class="text">
                         Canned dog food
                     </div>
-                    <img src="../assets/img/food-transparent-17-400x420.png" alt="">
+                    <img src="../../assets/img/food-transparent-17-400x420.png" alt="">
                     <button>Shop moist food</button>
                 </div>
             </div>
@@ -33,7 +33,7 @@ export default {
                     <div class="text">
                         Freeze-dried dog food
                     </div>
-                    <img src="../assets/img/food-transparent-16-400x420.png" alt="">
+                    <img src="../../assets/img/food-transparent-16-400x420.png" alt="">
                     <button>Shop frozen food</button>
                 </div>
             </div>
@@ -42,11 +42,11 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/sass/partials/palette' as *;
+@use '../../assets/sass/partials/palette' as *;
 
 .food_item {
     background-color: $cube--primary;
-    background-image: url(../assets/img/bg-transparent-3.png);
+    background-image: url(../../assets/img/bg-transparent-3.png);
     background-repeat: repeat-x;
     padding: 5rem;
 

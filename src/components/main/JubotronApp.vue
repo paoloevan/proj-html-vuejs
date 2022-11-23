@@ -33,7 +33,7 @@ export default {
         </div>
 
         <div class="main_jumbo position-relative">
-            <img class="" src="../assets/img/banner-5-2x-scaled.jpg" alt="">
+            <img class="" src="../../assets/img/banner-5-2x-scaled.jpg" alt="">
             <div class="container">
                 <div class="row position-absolute align-items-center">
                     <div class="col-6">
@@ -48,7 +48,7 @@ export default {
         </div>
 
         <div class="bottom_jumbo text-white text-center pt-3 text">
-            <img src="../assets/img/food-transparent-5-200x112.png" alt="">
+            <img src="../../assets/img/food-transparent-5-200x112.png" alt="">
             <span class="mx-4">
                 Get $25 OFF your first purchase of our homemade pet food!
             </span>
@@ -59,12 +59,12 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/sass/partials/palette' as *;
+@use '../../assets/sass/partials/palette' as *;
 
 .top_jumbo,
 .bottom_jumbo {
     background-color: $cube--primary;
-    background-image: url(../assets/img/bg-transparent-3.png);
+    background-image: url(../../assets/img/bg-transparent-3.png);
 
     strong {
         font-weight: 800;

@@ -7,7 +7,7 @@ export default {
 <template>
     <section class="main_jumbo position-relative mb-5">
         <div class="container">
-            <img class="" src="../assets/img/banner-3-2x-scaled.jpg" alt="">
+            <img class="" src="../../assets/img/banner-3-2x-scaled.jpg" alt="">
             <div class="row position-absolute align-items-center justify-content-center">
                 <div class="col text-center">
                     <div class="h-100 text-white">
@@ -22,7 +22,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/sass/partials/palette' as *;
+@use '../../assets/sass/partials/palette' as *;
 
 .main_jumbo {
 

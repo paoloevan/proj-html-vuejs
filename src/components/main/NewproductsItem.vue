@@ -15,42 +15,42 @@ export default {
             </div>
             <div class="row row-cols-3 pb-5 gx-3 gy-5">
                 <div>
-                    <img src="../assets/img/product-8.jpg" alt="">
+                    <img src="../../assets/img/product-8.jpg" alt="">
                     <div>Colored pet bed</div>
                     <div class="price smaller_text">
                         $18.00 - $26.00
                     </div>
                 </div>
                 <div>
-                    <img src="../assets/img/product-2.jpg" alt="">
+                    <img src="../../assets/img/product-2.jpg" alt="">
                     <div>Colorful ball set</div>
                     <div class="price smaller_text">
                         $29.00
                     </div>
                 </div>
                 <div>
-                    <img src="../assets/img/product-3.jpg" alt="">
+                    <img src="../../assets/img/product-3.jpg" alt="">
                     <div>Dog bone</div>
                     <div class="price smaller_text">
                         <del>$29.00</del> $18.00
                     </div>
                 </div>
                 <div>
-                    <img src="../assets/img/product-4.jpg" alt="">
+                    <img src="../../assets/img/product-4.jpg" alt="">
                     <div>Animal transport bag</div>
                     <div class="price smaller_text">
                         $29.00
                     </div>
                 </div>
                 <div>
-                    <img src="../assets/img/product-5.jpg" alt="">
+                    <img src="../../assets/img/product-5.jpg" alt="">
                     <div>Animal transport cage</div>
                     <div class="price smaller_text">
                         $35.00
                     </div>
                 </div>
                 <div>
-                    <img src="../assets/img/product-10.jpg" alt="">
+                    <img src="../../assets/img/product-10.jpg" alt="">
                     <div>Closable cat litter</div>
                     <div class="price smaller_text">
                         $16.00
@@ -62,7 +62,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/sass/partials/palette' as *;
+@use '../../assets/sass/partials/palette' as *;
 
 .small_text {
     color: $median--light-primary;

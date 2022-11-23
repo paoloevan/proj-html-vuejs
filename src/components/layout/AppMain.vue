@@ -1,17 +1,17 @@
 <script>
-import { state } from '../state.js'
-import AppNav from '../components/AppNav.vue'
-import JubotronApp from '../components/JubotronApp.vue'
-import CategoryItem from '../components/CategoryItem.vue'
-import CategoryFood from '../components/CategoryFood.vue'
-import ArrivalsJumbo from '../components/ArrivalsJumbo.vue'
-import BestItem from '../components/BestItem.vue'
-import TestimonialsItem from '../components/TestimonialsItem.vue'
-import NewsletterItem from '../components/NewsletterItem.vue'
-import TipsItem from '../components/TipsItem.vue'
-import BannerItem from '../components/BannerItem.vue'
-import CalltoactionItem from '../components/CalltoactionItem.vue'
-import NewproductsItem from '../components/NewproductsItem.vue'
+import { state } from '../../state.js'
+import AppNav from './AppNav.vue'
+import JubotronApp from '../main/JubotronApp.vue'
+import CategoryItem from '../main/CategoryItem.vue'
+import CategoryFood from '../main/CategoryFood.vue'
+import ArrivalsJumbo from '../main/ArrivalsJumbo.vue'
+import BestItem from '../main/BestItem.vue'
+import TestimonialsItem from '../main/TestimonialsItem.vue'
+import NewsletterItem from '../main/NewsletterItem.vue'
+import TipsItem from '../main/TipsItem.vue'
+import BannerItem from '../main/BannerItem.vue'
+import CalltoactionItem from '../main/CalltoactionItem.vue'
+import NewproductsItem from '../main/NewproductsItem.vue'
 
 export default {
     name: 'AppMain',
@@ -76,7 +76,3 @@ export default {
         <!-- / NewproductsItem -->
     </main>
 </template>
-
-<style lang="scss" scoped>
-
-</style>
