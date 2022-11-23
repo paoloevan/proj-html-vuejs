@@ -28,7 +28,8 @@ export default {
                         $29.00
                     </div>
                 </div>
-                <div>
+                <div class="position-relative">
+                    <div class="sale position-absolute">Sale!</div>
                     <img src="../../assets/img/product-3.jpg" alt="">
                     <div>Dog bone</div>
                     <div class="price smaller_text">
@@ -80,5 +81,14 @@ img {
         font-size: 0.75rem;
         color: black;
     }
+}
+
+.sale {
+    top: 15px;
+    left: 20px;
+    background-color: $median--light-primary;
+    padding: 0.25rem;
+    border-radius: 50%;
+    color: white;
 }
 </style>
