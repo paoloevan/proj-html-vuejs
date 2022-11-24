@@ -22,6 +22,7 @@ export default {
         <AppNav :navBar="state.footerNav" />
         <!-- / navbar -->
 
+        <!-- social -->
         <div class="social text-white text-center">
             <span> <i class="fa-brands fa-facebook-f"></i></span>
             <span> <i class="fa-brands fa-twitter"></i></span>

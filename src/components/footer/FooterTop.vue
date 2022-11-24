@@ -9,7 +9,7 @@ export default {
         <section class="footer_top">
             <div class="row row-cols-5 justify-content-between">
                 <div class="col">
-
+                    <!-- logo - address -->
                     <div class="logo mb-5">
                         <img src="../../assets/img/mobile-light-pet-logo-2x-200x52.png" alt="">
                     </div>
@@ -20,7 +20,7 @@ export default {
                         Call us: (1) 234 5678
                     </address>
                 </div>
-
+                <!-- links -->
                 <div class="col">
                     <h5>Shop by brand</h5>
                     <a href="#">Bed</a>
@@ -36,7 +36,7 @@ export default {
                     <a href="#">Checkout</a>
                     <a href="#">Cart</a>
                 </div>
-
+                <!-- newsletter -->
                 <div class="col call_to_action">
                     <h5>Subscribe to our newsletter</h5>
                     <input type="email" placeholder="Insert your email">
