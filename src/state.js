@@ -115,6 +115,63 @@ export const state = reactive({
         },
 
     ],
+    bestItem: [
+        {
+            imgPath: 'product-21-400x400.jpg',
+            text: 'Transport cage',
+            price: '$25.00'
+        },
+        {
+            imgPath: 'product-20-400x400.jpg',
+            text: 'TDog leash',
+            price: '$25.00'
+        },
+        {
+            imgPath: 'product-16-400x400.jpg',
+            text: 'Animal transport cage',
+            price: '$25.00',
+            sale: '$35.00'
+        },
+        {
+            imgPath: 'product-11-400x400.jpg',
+            text: 'Colorful cat leash',
+            price: '$12.00'
+        },
+
+    ],
+    NewproductsItem: [
+        {
+            imgPath: 'product-8.jpg',
+            text: 'Colored pet bed',
+            price: '$18.00 - $26.00'
+        },
+        {
+            imgPath: 'product-2.jpg',
+            text: 'Colorful ball set',
+            price: '$29.00'
+        },
+        {
+            imgPath: 'product-3.jpg',
+            text: 'Dog bone',
+            price: '$18.00',
+            sale: '$29.00'
+        },
+        {
+            imgPath: 'product-4.jpg',
+            text: 'Animal transport bag',
+            price: '$29.00'
+        },
+        {
+            imgPath: 'product-5.jpg',
+            text: 'nimal transport cage',
+            price: '$35.00'
+        },
+        {
+            imgPath: 'product-10.jpg',
+            text: 'Closable cat litter',
+            price: '$16.00'
+        }
+    ],
     getYear() {
         const d = new Date();
         let year = d.getFullYear();

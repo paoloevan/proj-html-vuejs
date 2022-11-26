@@ -1,6 +1,17 @@
 <script>
+import { state } from '../../state.js'
+import CardItem from '../main/CardItem.vue'
+
 export default {
-    name: 'BestItem'
+    name: 'BestItem',
+    components: {
+        CardItem
+    },
+    data() {
+        return {
+            state
+        }
+    }
 }
 </script>
 
@@ -18,77 +29,11 @@ export default {
             </div>
 
             <div class="row row-cols-4 pb-5 mt-5 text-center">
-                <div class="card_item">
-                    <div class="position-relative mb-3">
-                        <div
-                            class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
-                            <div class="text_hover">
-                                <i class="fa-solid fa-square-check"></i>
-                            </div>
-                            <div class="smaller_text text-uppercase">view cart</div>
-                        </div>
 
-                        <img src="../../assets/img/product-21-400x400.jpg" alt="">
-                    </div>
-                    <div>Transport cage</div>
-                    <div class="price smaller_text">
-                        $25.00
-                    </div>
-                </div>
+                <template v-for="item in state.bestItem">
+                    <CardItem :card="item" />
+                </template>
 
-                <div class="card_item">
-                    <div class="position-relative mb-3">
-                        <div
-                            class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
-                            <div class="text_hover">
-                                <i class="fa-solid fa-square-check"></i>
-                            </div>
-                            <div class="smaller_text text-uppercase">view cart</div>
-                        </div>
-
-                        <img src="../../assets/img/product-20-400x400.jpg" alt="">
-                    </div>
-                    <div>Dog leash</div>
-                    <div class="price smaller_text">
-                        $25.00
-                    </div>
-                </div>
-
-                <div class="card_item">
-                    <div class="position-relative mb-3">
-                        <div
-                            class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
-                            <div class="text_hover">
-                                <i class="fa-solid fa-square-check"></i>
-                            </div>
-                            <div class="smaller_text text-uppercase">view cart</div>
-                        </div>
-
-                        <img src="../../assets/img/product-16-400x400.jpg" alt="">
-                    </div>
-                    <div>Animal transport cage</div>
-                    <div class="price smaller_text">
-                        <del>$35.00</del> $25.00
-                    </div>
-                </div>
-
-                <div class="card_item">
-                    <div class="position-relative mb-3">
-                        <div
-                            class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
-                            <div class="text_hover">
-                                <i class="fa-solid fa-square-check"></i>
-                            </div>
-                            <div class="smaller_text text-uppercase">view cart</div>
-                        </div>
-
-                        <img src="../../assets/img/product-11-400x400.jpg" alt="">
-                    </div>
-                    <div>Colorful cat leash</div>
-                    <div class="price smaller_text">
-                        $12.00
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -108,15 +53,5 @@ button {
     border: none;
     padding: 0.5rem 2rem;
     border-radius: 20px;
-}
-
-.price {
-    margin-top: 0.5rem;
-    color: $median--light-primary;
-
-    del {
-        color: black;
-        font-size: 0.75rem;
-    }
 }
 </style>
