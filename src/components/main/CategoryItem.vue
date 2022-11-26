@@ -1,6 +1,17 @@
 <script>
+import CardItem from '../main/CardItem.vue'
+import { state } from '../../state.js'
+
 export default {
-    name: 'CategoryItem'
+    name: 'CategoryItem',
+    components: {
+        CardItem
+    },
+    data() {
+        return {
+            state
+        }
+    }
 }
 </script>
 
@@ -19,59 +30,13 @@ export default {
             </div>
 
             <div class="row row-cols-4 pb-5">
-                <div class="card_item">
-                    <div class="position-relative mb-3">
-                        <div
-                            class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
-                            <div class="text_hover">
-                                <i class="fa-solid fa-square-check"></i>
-                            </div>
-                            <div class="smaller_text text-uppercase">view cart</div>
-                        </div>
-                        <img src="../../assets/img/product-9.jpg" alt="">
-                    </div>
-                    <div>Bed (1)</div>
-                </div>
-                <div class="card_item">
-                    <div class="position-relative mb-3">
-                        <div
-                            class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
-                            <div class=" text_hover">
-                                <i class="fa-solid fa-square-check"></i>
-                            </div>
-                            <div class="smaller_text text-uppercase">view cart</div>
-                        </div>
-                        <img src="../../assets/img/product-3.jpg" alt="">
-                    </div>
-                    <div>Food (6)</div>
 
-                </div>
-                <div class="card_item">
-                    <div class="position-relative mb-3">
-                        <div
-                            class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
-                            <div class=" text_hover">
-                                <i class="fa-solid fa-square-check"></i>
-                            </div>
-                            <div class="smaller_text text-uppercase">view cart</div>
-                        </div>
-                        <img src="../../assets/img/product-2.jpg" alt="">
-                    </div>
-                    <div>Toys (6)</div>
-                </div>
-                <div class="card_item">
-                    <div class="position-relative mb-3">
-                        <div
-                            class="view_cart text-white position-absolute d-flex flex-column justify-content-center align-items-center">
-                            <div class=" text_hover">
-                                <i class="fa-solid fa-square-check"></i>
-                            </div>
-                            <div class="smaller_text text-uppercase">view cart</div>
-                        </div>
-                        <img src="../../assets/img/product-4.jpg" alt="">
-                    </div>
-                    <div>Transport (6)</div>
-                </div>
+                <template v-for="item in state.categoryItem">
+
+                    <CardItem :card="item" />
+
+                </template>
+
             </div>
         </div>
     </section>

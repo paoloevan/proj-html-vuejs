@@ -1,6 +1,17 @@
 <script>
+import TopJumbo from '../../components/main/TopJumbo.vue'
+import { state } from '../../state.js'
+
 export default {
-    name: 'JubotronApp'
+    name: 'JubotronApp',
+    components: {
+        TopJumbo
+    },
+    data() {
+        return {
+            state
+        }
+    }
 }
 </script>
 
@@ -18,19 +29,16 @@ export default {
                     <div>On Sale</div>
                 </div>
             </div>
+
             <div class="container d-flex justify-content-around text-white py-3">
-                <div>
-                    <i class="fa-regular fa-map"></i><strong> Internation</strong> Shipping Service
-                </div>
+                <template v-for="item in state.topJumbo">
 
-                <div>
-                    <i class="fa-regular fa-clock"></i> See our <strong>store hours</strong> and service
-                </div>
+                    <TopJumbo :ads="item" />
 
-                <div>
-                    <i class="fa-solid fa-check"></i> We price match to give you the <strong>best deals</strong>
-                </div>
+                </template>
+
             </div>
+
         </div>
 
         <div class="main_jumbo position-relative">
