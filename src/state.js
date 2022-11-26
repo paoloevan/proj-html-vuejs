@@ -94,6 +94,27 @@ export const state = reactive({
         },
 
     ],
+    categoryFood: [
+        {
+            title: 'Kibble',
+            text: 'Dry dog food',
+            img: 'food-transparent-18-400x420.png',
+            button: 'Shop dry food'
+        },
+        {
+            title: 'Moist',
+            text: 'Canned dog food',
+            img: 'food-transparent-17-400x420.png',
+            button: 'Shop moist food'
+        },
+        {
+            title: 'Frozen',
+            text: 'Freeze-dried dog food',
+            img: 'food-transparent-16-400x420.png',
+            button: 'Shop frozen food'
+        },
+
+    ],
     getYear() {
         const d = new Date();
         let year = d.getFullYear();

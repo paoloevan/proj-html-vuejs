@@ -1,71 +1,31 @@
 <script>
+import FoodItem from '../../components/main/FoodItem.vue'
+import { state } from '../../state.js'
+
 export default {
-    name: 'CategoryFood'
+    name: 'CategoryFood',
+    components: {
+        FoodItem
+    },
+    data() {
+        return {
+            state
+        }
+    }
 }
 </script>
 
 <template>
     <section class="container">
         <div class="row row-cols-3 pt-5 text-center text-white mb-5">
-            <div class="col">
-                <div class="food_item">
-                    <h3>Kibble</h3>
-                    <div class="text">
-                        Dry dog food
-                    </div>
-                    <img src="../../assets/img/food-transparent-18-400x420.png" alt="">
-                    <button>Shop dry food</button>
-                </div>
-            </div>
-            <div class="col">
-                <div class="food_item">
-                    <h3>Moist</h3>
-                    <div class="text">
-                        Canned dog food
-                    </div>
-                    <img src="../../assets/img/food-transparent-17-400x420.png" alt="">
-                    <button>Shop moist food</button>
-                </div>
-            </div>
-            <div class="col">
-                <div class="food_item">
-                    <h3>Frozen</h3>
-                    <div class="text">
-                        Freeze-dried dog food
-                    </div>
-                    <img src="../../assets/img/food-transparent-16-400x420.png" alt="">
-                    <button>Shop frozen food</button>
-                </div>
-            </div>
+
+            <template v-for="item in state.categoryFood">
+
+                <FoodItem :item="item" />
+
+            </template>
+
         </div>
     </section>
 </template>
 
-<style lang="scss" scoped>
-@use '../../assets/sass/partials/palette' as *;
-
-.food_item {
-    background-color: $cube--primary;
-    background-image: url(../../assets/img/bg-transparent-3.png);
-    background-repeat: repeat-x;
-    padding: 5rem;
-
-    &:hover {
-        scale: 1.05;
-        background-color: $median--primary;
-        transition: scale 0.25s;
-    }
-
-    button {
-        background-color: $median--light-primary;
-        color: white;
-        border: none;
-        padding: 0.5rem 2rem;
-        border-radius: 20px;
-    }
-
-    .text {
-        color: $median--light-primary;
-    }
-}
-</style>
